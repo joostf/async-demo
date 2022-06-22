@@ -1,7 +1,7 @@
 import render from './helpers/render.js'
 import api from './helpers/api.js'
 
-api.topic = 'grandpa'
+api.topic = 'chicken'
 
 const target = document.querySelector('section#xhr')
 const url =  `${api.endpoint}${api.topic}&api_key=${api.key}&limit=${api.limit}`
